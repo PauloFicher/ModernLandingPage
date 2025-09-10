@@ -34,16 +34,24 @@ export default function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button className="btn-primary flex items-center gap-2 group">
-              Probar gratis
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
-            </button>
-            <button className="btn-secondary flex items-center gap-2 group">
-              <Play className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
-              Ver demo
-            </button>
-          </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+  <a 
+    href="https://taskflow-todos-6k7v.vercel.app" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="btn-primary inline-flex items-center justify-center"
+  >
+    Ver Demo
+  </a>
+  <a 
+    href="https://taskflow-todos-6k7v.vercel.app" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="btn-secondary inline-flex items-center justify-center"
+  >
+    Probar Gratis
+  </a>
+</div>
 
           {/* Trust Indicators */}
           <div className="text-sm text-gray-500 dark:text-gray-400 mb-16">
